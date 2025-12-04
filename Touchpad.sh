@@ -14,8 +14,4 @@ Section "InputClass"
 EndSection
 EOF
 
-# LightDM yeniden başlatılıyor
-echo "🔄 LightDM yeniden başlatılıyor..."
-sudo systemctl restart lightdm
-
 echo "✅ Tap-to-click başarıyla etkinleştirildi!"
